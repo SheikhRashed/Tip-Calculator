@@ -16,6 +16,46 @@ header h5 {
   color: #fff;
 }
 
+.tip-block {
+  margin: 120px 0px;
+}
+
+.tip-block__head h2 {
+  font-size: 68px;
+  line-height: 78px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.tip-block__body {
+  padding: 30px;
+}
+
+.tip-block__body label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tip-block__body #bill,
+.tip-block__body #service {
+  border-radius: 0px;
+  border: 1px solid #050505;
+}
+
+.tip-block__body #bill:focus,
+.tip-block__body #service:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid #050505;
+}
+
+.tip-block__body .calculate {
+  border-radius: 0px;
+  width: 150px;
+  height: 45px;
+  margin: 15px 0px;
+}
+
 footer {
   background-color: #f58634;
   margin: 30px 0px;
